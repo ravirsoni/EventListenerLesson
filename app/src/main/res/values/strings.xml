@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">EventListenerLesson</string>
-    <string name="click_button_to_change_text">Click on below button to change Text !!!</string>
+    <string name="click_button_to_change_text">Click to change Text !!!</string>
     <string name="bt_clickme">click me !!</string>
     <string name="bt_text_change_bg_color">Change Background Color</string>
+    <string name="tx_updated_Text">"This is Updated Text"</string>
 </resources>
