@@ -11,7 +11,31 @@
     tools:context="com.ravirsoni.eventlistenerlesson.MainActivity">
 
     <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/click_button_to_change_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:id="@+id/tv_activity_main"
+        android:textAllCaps="true" />
+
+    <Button
+        android:text="@string/bt_clickme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/bt_clicktochange_change_text"
+        android:layout_below="@+id/tv_activity_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:text="@string/bt_text_change_bg_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/bt_click_changecolor"
+        android:layout_below="@+id/bt_clicktochange_change_text"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
