@@ -37,5 +37,6 @@
         android:layout_marginTop="32dp"
         android:id="@+id/bt_click_changecolor"
         android:layout_below="@+id/bt_clicktochange_change_text"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        />
 </RelativeLayout>
